@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+agent-retriever/chroma_db/
+agent-reasoner/models/*.gguf
+agent-*/monitor/*.csv
+benchmark/results/
+

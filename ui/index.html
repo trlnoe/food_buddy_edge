@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Buddy Edge - Vung Tau</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg>
+                <h1>Food Buddy Edge</h1>
+            </div>
+            <div class="system-status">
+                <div class="status-indicator">
+                    <span class="dot" id="dot-retriever"></span>
+                    <span class="label">Retriever</span>
+                </div>
+                <div class="status-indicator">
+                    <span class="dot" id="dot-reasoner"></span>
+                    <span class="label">Reasoner</span>
+                </div>
+                <div class="status-indicator">
+                    <span class="dot" id="dot-synthesizer"></span>
+                    <span class="label">Synthesizer</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Form -->
+        <main>
+            <div class="search-section glass">
+                <h2>Find the perfect local food in Vung Tau</h2>
+                <p>Powered by local Edge AI. No cloud required.</p>
+                <form id="ask-form">
+                    <div class="input-group">
+                        <input type="text" id="query" value="good cheap seafood near Back Beach" required
+                            placeholder="E.g. cheap seafood near Bai Sau...">
+                        <button type="submit" id="submit-btn">
+                            <span>Ask AI</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>AI is thinking and analyzing restaurants...</p>
+            </div>
+
+            <div id="error-message" class="hidden glass error-glass">
+                <p id="error-text"></p>
+            </div>
+
+            <!-- Results Section -->
+            <div id="results" class="hidden">
+                <!-- Compact Tech Logs Strip -->
+                <div class="tech-logs-strip glass">
+                    <span>⏱ <b>Retriever:</b> <span id="log-retriever-ms">0</span>ms</span>
+                    <span>⏱ <b>Reasoner:</b> <span id="log-reasoner-ms">0</span>ms</span>
+                    <span>⏱ <b>Total Latency:</b> <span class="success-text" id="log-total-ms">0</span>ms</span>
+                </div>
+
+                <!-- Map and Compact List Layout -->
+                <div class="map-and-list">
+                    <!-- Big Map -->
+                    <div class="map-container glass">
+                        <div id="map-inner"></div>
+                    </div>
+                    
+                    <!-- Compact List -->
+                    <div class="list-container glass" id="cards-container">
+                        <!-- Compact items injected via JS -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Allow overriding API_URL via localStorage for Cloud IDE environments
+        const defaultApiUrl = window.location.protocol + '//' + window.location.hostname + ':8887';
+        const API_URL = localStorage.getItem('API_URL') || defaultApiUrl;
+        
+        // Expose a function to change it easily from console
+        window.setApiUrl = function(url) {
+            localStorage.setItem('API_URL', url);
+            location.reload();
+        };
+
+        const elements = {
+            form: document.getElementById('ask-form'),
+            query: document.getElementById('query'),
+            submitBtn: document.getElementById('submit-btn'),
+            loading: document.getElementById('loading'),
+            results: document.getElementById('results'),
+            errorMsg: document.getElementById('error-message'),
+            errorText: document.getElementById('error-text'),
+            cardsContainer: document.getElementById('cards-container'),
+            dotRetriever: document.getElementById('dot-retriever'),
+            dotReasoner: document.getElementById('dot-reasoner'),
+            dotSynthesizer: document.getElementById('dot-synthesizer'),
+            logRetriever: document.getElementById('log-retriever-ms'),
+            logReasoner: document.getElementById('log-reasoner-ms'),
+            logTotal: document.getElementById('log-total-ms')
+        };
+
+        // Map is loaded from standard API coordinates
+
+        // Initialize Map
+        let map = L.map('map-inner').setView([10.3459, 107.0842], 13);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        let currentMarkers = [];
+        let mapDictionary = {}; // Map ID to Marker
+        let allCandidates = [];
+        let currentPage = 1;
+        const ITEMS_PER_PAGE = 5;
+
+        const formatMoney = (amount) => {
+            if(amount >= 1000) return (amount/1000) + 'k';
+            return amount;
+        };
+
+        elements.form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            elements.loading.classList.remove('hidden');
+            elements.results.classList.add('hidden');
+            elements.errorMsg.classList.add('hidden');
+            elements.submitBtn.disabled = true;
+
+            try {
+                const response = await fetch(`${API_URL}/ask`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: elements.query.value })
+                });
+
+                const json = await response.json();
+                if (json.success) {
+                    renderSuccess(json);
+                } else {
+                    renderError(json.error_message || 'An error occurred during processing.');
+                }
+            } catch (err) {
+                console.error("Fetch error:", err);
+                renderError('Cannot reach the AI Synthesizer orchestrator. Error: ' + err.message + '. (Check console for details)');
+            } finally {
+                elements.loading.classList.add('hidden');
+                elements.submitBtn.disabled = false;
+            }
+        });
+
+        function renderSuccess(json) {
+            const data = json.data;
+            
+            // Update Compact Tech Logs
+            elements.logRetriever.textContent = data.breakdown.retriever_ms;
+            elements.logReasoner.textContent = data.breakdown.reasoner_ms;
+            elements.logTotal.textContent = json.total_latency_ms;
+
+            allCandidates = data.chosen_candidates || [];
+            currentPage = 1;
+            
+            // Clear old markers
+            currentMarkers.forEach(marker => map.removeLayer(marker));
+            currentMarkers = [];
+            mapDictionary = {};
+
+            if (allCandidates.length > 0) {
+                let bounds = [];
+                allCandidates.forEach(restaurant => {
+                    // Add Marker to Map from actual Backend data
+                    if(restaurant.lat && restaurant.lng) {
+                        const coords = [restaurant.lat, restaurant.lng];
+                        const marker = L.marker(coords).addTo(map)
+                            .bindPopup(`<b>${restaurant.name}</b><br>${restaurant.area}`);
+                        currentMarkers.push(marker);
+                        mapDictionary[restaurant.id] = marker;
+                        bounds.push(coords);
+                    }
+                });
+                
+                if(bounds.length > 0) {
+                    setTimeout(() => {
+                        map.invalidateSize();
+                        map.fitBounds(bounds, {padding: [30, 30], maxZoom: 15});
+                    }, 100);
+                }
+            }
+
+            renderPage();
+
+            elements.results.classList.remove('hidden');
+
+            updateDot(elements.dotRetriever, data.agents_status.retriever === 'ok');
+            updateDot(elements.dotReasoner, data.agents_status.reasoner === 'ok');
+            updateDot(elements.dotSynthesizer, true);
+        }
+
+        function renderPage() {
+            elements.cardsContainer.innerHTML = '';
+            
+            if (allCandidates.length === 0) return;
+
+            const totalPages = Math.ceil(allCandidates.length / ITEMS_PER_PAGE);
+            const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+            const endIdx = startIdx + ITEMS_PER_PAGE;
+            const pageItems = allCandidates.slice(startIdx, endIdx);
+
+            pageItems.forEach(restaurant => {
+                const item = document.createElement('div');
+                item.className = 'compact-item';
+                item.innerHTML = `
+                    <h4>${restaurant.name} <span>⭐${restaurant.rating}</span></h4>
+                    <p>${restaurant.description.substring(0, 50)}...</p>
+                    <div class="time-price">
+                        <span>🕒 ${restaurant.open_time} - ${restaurant.close_time}</span>
+                        <span>💵 ${formatMoney(restaurant.price_min)} - ${formatMoney(restaurant.price_max)}</span>
+                    </div>
+                `;
+                item.addEventListener('mouseenter', () => {
+                    if(mapDictionary[restaurant.id]) {
+                        mapDictionary[restaurant.id].openPopup();
+                    }
+                });
+                elements.cardsContainer.appendChild(item);
+            });
+
+            // Add Pagination Controls
+            if (totalPages > 1) {
+                const pagination = document.createElement('div');
+                pagination.className = 'pagination-controls';
+                
+                const prevBtn = document.createElement('button');
+                prevBtn.innerHTML = '❮';
+                prevBtn.className = 'page-btn';
+                prevBtn.disabled = currentPage === 1;
+                prevBtn.onclick = () => { currentPage--; renderPage(); };
+
+                const info = document.createElement('span');
+                info.textContent = ` Trang ${currentPage} / ${totalPages} `;
+                info.className = 'page-info';
+
+                const nextBtn = document.createElement('button');
+                nextBtn.innerHTML = '❯';
+                nextBtn.className = 'page-btn';
+                nextBtn.disabled = currentPage === totalPages;
+                nextBtn.onclick = () => { currentPage++; renderPage(); };
+
+                pagination.appendChild(prevBtn);
+                pagination.appendChild(info);
+                pagination.appendChild(nextBtn);
+                
+                elements.cardsContainer.appendChild(pagination);
+            }
+        }
+
+        function renderError(message) {
+            elements.errorText.textContent = message;
+            elements.errorMsg.classList.remove('hidden');
+        }
+
+        function updateDot(element, isOk) {
+            element.className = 'dot ' + (isOk ? 'green' : 'red');
+        }
+
+        async function pollStatus() {
+            try {
+                const res = await fetch(`${API_URL}/status`);
+                const data = await res.json();
+                updateDot(elements.dotRetriever, data.retriever === 'ok');
+                updateDot(elements.dotReasoner, data.reasoner === 'ok');
+                updateDot(elements.dotSynthesizer, true);
+                elements.errorMsg.classList.add('hidden'); // hide error if successful
+            } catch (e) {
+                console.error("Status fetch error:", e);
+                updateDot(elements.dotRetriever, false);
+                updateDot(elements.dotReasoner, false);
+                updateDot(elements.dotSynthesizer, false);
+                
+                // Show the error on screen to help debug
+                renderError(`Background connection failed. Trying to connect to: ${API_URL}/status. Error: ${e.message}`);
+            }
+        }
+
+        pollStatus();
+        setInterval(pollStatus, 3000);
+    </script>
+</body>
+</html>

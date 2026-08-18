@@ -1,0 +1,4 @@
+docker compose ps
+cd ui && python3 -m http.server 8080
+docker stats food_buddy_edge-reasoner food_buddy_edge-retriever food_buddy_edge-synthesizer
+python3 benchmark/load_test.py

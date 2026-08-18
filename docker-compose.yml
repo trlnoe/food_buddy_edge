@@ -1,0 +1,54 @@
+name: food_buddy_edge
+
+services:
+  retriever:
+    image: food_buddy_edge-retriever
+    container_name: food_buddy_edge-retriever
+    build: ./agent-retriever
+    ports: ["8883:8001"]
+    volumes:
+      - ./agent-retriever/chroma_db:/app/chroma_db
+    deploy:
+      resources:
+        limits: { cpus: "2", memory: 4G }
+    networks: [edge-net]
+
+  reasoner:
+    image: food_buddy_edge-reasoner
+    container_name: food_buddy_edge-reasoner
+    build: ./agent-reasoner
+    ports: ["8885:8002"]
+    volumes:
+      - ./agent-reasoner/models:/app/models:ro
+    environment:
+      MODEL_PATH: ${MODEL_PATH:-/app/models/qwen2.5-0.5b-instruct-q4_k_m.gguf}
+      FORCE_MALFORMED: ${FORCE_MALFORMED:-0}
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"
+      LLM_THREADS: "2"
+    cpuset: "0,1"
+    deploy:
+      resources:
+        limits: { memory: 4G }
+    networks: [edge-net]
+
+  synthesizer:
+    image: food_buddy_edge-synthesizer
+    container_name: food_buddy_edge-synthesizer
+    build: ./agent-synthesizer
+    ports: ["8887:8003"]
+    environment:
+      RETRIEVER_URL: ${RETRIEVER_URL:-http://retriever:8001}
+      REASONER_URL: ${REASONER_URL:-http://reasoner:8002}
+      RETRIEVER_TIMEOUT_SECONDS: ${RETRIEVER_TIMEOUT_SECONDS:-3}
+      REASONER_TIMEOUT_SECONDS: ${REASONER_TIMEOUT_SECONDS:-20}
+      CURRENT_TIME_OVERRIDE: ${CURRENT_TIME_OVERRIDE:-}
+    depends_on: [retriever, reasoner]
+    deploy:
+      resources:
+        limits: { cpus: "2", memory: 4G }
+    networks: [edge-net]
+
+networks:
+  edge-net:
+    driver: bridge

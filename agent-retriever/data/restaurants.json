@@ -1,0 +1,2779 @@
+[
+  {
+    "id": "q001",
+    "name": "Ganh Hao Restaurant",
+    "area": "Front Beach (Bai Truoc)",
+    "address": "3 Tran Phu St, Vung Tau",
+    "cuisine_type": [
+      "seafood",
+      "hotpot",
+      "crab"
+    ],
+    "specialties": [
+      "mud crab hotpot",
+      "steamed crab",
+      "grilled salt-chili shrimp"
+    ],
+    "price_min": 150000,
+    "price_max": 300000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Sea-view restaurant with fresh live seafood for groups.",
+    "rating": 4.3,
+    "lat": 10.334,
+    "lng": 107.067
+  },
+  {
+    "id": "q002",
+    "name": "Quan Bun Bo Hue Co Do",
+    "area": "Bai Truoc",
+    "address": "12 Ly Thuong Kiet St, Vung Tau",
+    "cuisine_type": [
+      "noodle soup",
+      "breakfast",
+      "local"
+    ],
+    "specialties": [
+      "spicy beef noodle soup",
+      "pork knuckle noodle soup"
+    ],
+    "price_min": 35000,
+    "price_max": 55000,
+    "open_time": "06:00",
+    "close_time": "10:30",
+    "description": "Authentic Hue-style breakfast broth; busy on weekends.",
+    "rating": 4.5,
+    "lat": 10.345,
+    "lng": 107.08
+  },
+  {
+    "id": "q003",
+    "name": "Banh Khot Co Ba",
+    "area": "Back Beach (Bai Sau)",
+    "address": "42 Nguyen Truong To St, Vung Tau",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "mini savory pancakes (banh khot)",
+      "shrimp banh khot"
+    ],
+    "price_min": 40000,
+    "price_max": 80000,
+    "open_time": "09:00",
+    "close_time": "21:00",
+    "description": "Famous casual banh khot spot, friendly for tourists.",
+    "rating": 4.6,
+    "lat": 10.34,
+    "lng": 107.085
+  },
+  {
+    "id": "q004",
+    "name": "Hai San Cay Bang",
+    "area": "Bai Sau",
+    "address": "57 Thuy Van St, Vung Tau",
+    "cuisine_type": [
+      "seafood",
+      "grill"
+    ],
+    "specialties": [
+      "grilled squid",
+      "baked oysters with scallion oil",
+      "seafood porridge"
+    ],
+    "price_min": 100000,
+    "price_max": 250000,
+    "open_time": "10:30",
+    "close_time": "23:00",
+    "description": "Beachfront open-air seafood, mid-range prices and open late.",
+    "rating": 4.1,
+    "lat": 10.348,
+    "lng": 107.09
+  },
+  {
+    "id": "q005",
+    "name": "Com Tam Ba Gia",
+    "area": "City Center",
+    "address": "88 Le Loi St, Vung Tau",
+    "cuisine_type": [
+      "rice",
+      "local",
+      "budget"
+    ],
+    "specialties": [
+      "broken rice with grilled pork chop",
+      "shredded pork skin rice"
+    ],
+    "price_min": 30000,
+    "price_max": 50000,
+    "open_time": "10:00",
+    "close_time": "20:00",
+    "description": "Fast, no-frills and affordable lunch rice shop.",
+    "rating": 4.2,
+    "lat": 10.355,
+    "lng": 107.078
+  },
+  {
+    "id": "q006",
+    "name": "The Coastal Cafe",
+    "area": "Bai Truoc",
+    "address": "21 Ha Long St, Vung Tau",
+    "cuisine_type": [
+      "cafe",
+      "drinks",
+      "breakfast"
+    ],
+    "specialties": [
+      "Vietnamese egg coffee",
+      "iced coconut coffee"
+    ],
+    "price_min": 30000,
+    "price_max": 65000,
+    "open_time": "06:30",
+    "close_time": "22:30",
+    "description": "Modern sea-view cafe with wifi and English-speaking staff.",
+    "rating": 4.4,
+    "lat": 10.338,
+    "lng": 107.07
+  },
+  {
+    "id": "q007",
+    "name": "Lau Nuong Bien Xanh",
+    "area": "Bai Sau",
+    "address": "150 Thuy Van St, Vung Tau",
+    "cuisine_type": [
+      "hotpot",
+      "bbq grill",
+      "seafood"
+    ],
+    "specialties": [
+      "seafood hotpot",
+      "grilled pork skewers",
+      "grilled clams"
+    ],
+    "price_min": 120000,
+    "price_max": 280000,
+    "open_time": "16:00",
+    "close_time": "23:30",
+    "description": "Group-friendly dinner and late-night grill spot.",
+    "rating": 4.0,
+    "lat": 10.35,
+    "lng": 107.092
+  },
+  {
+    "id": "q008",
+    "name": "Banh Mi Chi Nam",
+    "area": "City Center",
+    "address": "5 Nguyen Thai Hoc St, Vung Tau",
+    "cuisine_type": [
+      "street food",
+      "sandwich",
+      "budget"
+    ],
+    "specialties": [
+      "grilled pork banh mi",
+      "pate egg banh mi"
+    ],
+    "price_min": 15000,
+    "price_max": 25000,
+    "open_time": "05:30",
+    "close_time": "11:00",
+    "description": "Very cheap classic morning street-side banh mi.",
+    "rating": 4.3,
+    "lat": 10.352,
+    "lng": 107.075
+  },
+  {
+    "id": "q009",
+    "name": "Sunset Rooftop Restaurant",
+    "area": "Bai Truoc",
+    "address": "10 Quang Trung St, Vung Tau",
+    "cuisine_type": [
+      "fine dining",
+      "seafood",
+      "western"
+    ],
+    "specialties": [
+      "grilled lobster",
+      "beef steak"
+    ],
+    "price_min": 300000,
+    "price_max": 600000,
+    "open_time": "17:00",
+    "close_time": "23:00",
+    "description": "High-end sunset ocean-view dinner with English menu.",
+    "rating": 4.7,
+    "lat": 10.332,
+    "lng": 107.072
+  },
+  {
+    "id": "q010",
+    "name": "Chao Ga Store Number 1",
+    "area": "City Center",
+    "address": "30 Le Hong Phong St, Vung Tau",
+    "cuisine_type": [
+      "porridge",
+      "local",
+      "late night"
+    ],
+    "specialties": [
+      "chicken rice porridge",
+      "shredded chicken salad"
+    ],
+    "price_min": 25000,
+    "price_max": 45000,
+    "open_time": "18:00",
+    "close_time": "02:00",
+    "description": "Simple local late-night chicken porridge, open after midnight.",
+    "rating": 4.2,
+    "lat": 10.351,
+    "lng": 107.083
+  },
+  {
+    "id": "q011",
+    "name": "Oc Tu Nhien",
+    "area": "Bai Sau",
+    "address": "34 Vo Thi Sau St, Vung Tau",
+    "cuisine_type": [
+      "seafood",
+      "street food",
+      "snails"
+    ],
+    "specialties": [
+      "butter garlic snails",
+      "grilled scallops"
+    ],
+    "price_min": 70000,
+    "price_max": 180000,
+    "open_time": "15:00",
+    "close_time": "23:30",
+    "description": "Lively, affordable seafood-snail restaurant near Back Beach.",
+    "rating": 4.1,
+    "lat": 10.342,
+    "lng": 107.088
+  },
+  {
+    "id": "q012",
+    "name": "Pho Binh",
+    "area": "City Center",
+    "address": "66 Ba Cu St, Vung Tau",
+    "cuisine_type": [
+      "noodle soup",
+      "breakfast",
+      "local"
+    ],
+    "specialties": [
+      "beef pho",
+      "chicken pho"
+    ],
+    "price_min": 40000,
+    "price_max": 70000,
+    "open_time": "05:30",
+    "close_time": "11:30",
+    "description": "Reliable central Vietnamese pho for breakfast.",
+    "rating": 4.0,
+    "lat": 10.35,
+    "lng": 107.077
+  },
+  {
+    "id": "q013",
+    "name": "Bun Rieu Cua Bien",
+    "area": "Bai Truoc",
+    "address": "9 Le Loi St, Vung Tau",
+    "cuisine_type": [
+      "noodle soup",
+      "crab",
+      "budget"
+    ],
+    "specialties": [
+      "crab tomato noodle soup",
+      "fried tofu"
+    ],
+    "price_min": 35000,
+    "price_max": 60000,
+    "open_time": "06:00",
+    "close_time": "13:00",
+    "description": "Light, tangy crab noodle soup close to Front Beach.",
+    "rating": 4.2,
+    "lat": 10.345,
+    "lng": 107.072
+  },
+  {
+    "id": "q014",
+    "name": "Pizza Paspi",
+    "area": "Bai Sau",
+    "address": "107 Vo Thi Sau St, Vung Tau",
+    "cuisine_type": [
+      "italian",
+      "pizza",
+      "western"
+    ],
+    "specialties": [
+      "wood-fired seafood pizza",
+      "margherita pizza"
+    ],
+    "price_min": 120000,
+    "price_max": 250000,
+    "open_time": "11:00",
+    "close_time": "22:00",
+    "description": "Relaxed Western option near Back Beach.",
+    "rating": 4.4,
+    "lat": 10.341,
+    "lng": 107.089
+  },
+  {
+    "id": "q015",
+    "name": "Quan An Ngon Vung Tau",
+    "area": "City Center",
+    "address": "102 Hoang Hoa Tham St, Vung Tau",
+    "cuisine_type": [
+      "Vietnamese",
+      "rice",
+      "family"
+    ],
+    "specialties": [
+      "claypot fish",
+      "morning glory"
+    ],
+    "price_min": 60000,
+    "price_max": 150000,
+    "open_time": "10:00",
+    "close_time": "21:30",
+    "description": "Comforting Vietnamese family-style dishes at moderate prices.",
+    "rating": 4.1,
+    "lat": 10.343,
+    "lng": 107.087
+  },
+  {
+    "id": "q016",
+    "name": "Kem Bo Thanh Thanh",
+    "area": "Bai Truoc",
+    "address": "6 Quang Trung St, Vung Tau",
+    "cuisine_type": [
+      "dessert",
+      "cafe",
+      "budget"
+    ],
+    "specialties": [
+      "avocado ice cream",
+      "coconut ice cream"
+    ],
+    "price_min": 20000,
+    "price_max": 45000,
+    "open_time": "09:00",
+    "close_time": "22:00",
+    "description": "Popular affordable avocado dessert near the promenade.",
+    "rating": 4.3,
+    "lat": 10.336,
+    "lng": 107.073
+  },
+  {
+    "id": "q017",
+    "name": "Panda - BBQ Beer & Hotpot",
+    "area": "Bai Truoc",
+    "address": "150 Hạ Long, Vũng Tàu",
+    "cuisine_type": [
+      "bbq",
+      "hotpot",
+      "beer"
+    ],
+    "specialties": [
+      "grilled meat platters",
+      "beer hotpot combo"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:30",
+    "description": "Large beachfront BBQ and hotpot hall popular with groups, known for its sea view and lively atmosphere.",
+    "rating": 4.9,
+    "lat": 10.3407,
+    "lng": 107.0734
+  },
+  {
+    "id": "q018",
+    "name": "Lẩu Núp Hẻm",
+    "area": "City Center",
+    "address": "69/1b Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "hotpot",
+      "seafood"
+    ],
+    "specialties": [
+      "fried yellowfin fish",
+      "seafood noodles"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Small family-run hidden-alley eatery loved for fresh seafood noodles and homemade sauces.",
+    "rating": 4.9,
+    "lat": 10.3344,
+    "lng": 107.0821
+  },
+  {
+    "id": "q019",
+    "name": "Mê Buffet - Coffee Vũng Tàu",
+    "area": "City Center",
+    "address": "128 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "seafood",
+      "buffet",
+      "cafe"
+    ],
+    "specialties": [
+      "seafood buffet",
+      "live crab and prawn tank"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "06:00",
+    "close_time": "23:00",
+    "description": "Seafood buffet restaurant with a coffee-shop section, popular for catch-your-own shellfish.",
+    "rating": 4.8,
+    "lat": 10.338,
+    "lng": 107.0851
+  },
+  {
+    "id": "q020",
+    "name": "Bếp Đá Bạc",
+    "area": "City Center",
+    "address": "36/23 Xô Viết Nghệ Tĩnh, Vũng Tàu",
+    "cuisine_type": [
+      "bbq",
+      "hotpot"
+    ],
+    "specialties": [
+      "seafood stir-fry",
+      "Teochew mala beef hotpot"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Cozy grill and hotpot spot known for its lighthouse-shaped hotpot and seafood dipping sauce.",
+    "rating": 4.9,
+    "lat": 10.3418,
+    "lng": 107.0859
+  },
+  {
+    "id": "q021",
+    "name": "JOKI ENKAI Vũng Tàu",
+    "area": "Bai Truoc",
+    "address": "138 Hạ Long, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "steamed food"
+    ],
+    "specialties": [
+      "steamed beef",
+      "make-your-own sauce"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:30",
+    "close_time": "22:00",
+    "description": "Ocean-view Japanese steamed-food restaurant offering a lighter, healthier dining style.",
+    "rating": 5.0,
+    "lat": 10.34,
+    "lng": 107.0725
+  },
+  {
+    "id": "q022",
+    "name": "Little Dragon Hotpot",
+    "area": "Bai Sau",
+    "address": "2A Nguyễn Đình Chiểu, Bà Rịa",
+    "cuisine_type": [
+      "hotpot",
+      "chinese"
+    ],
+    "specialties": [
+      "Chinese-style hotpot"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Chinese-style hotpot restaurant near Ba Ria known for its flavorful, not-too-spicy broth.",
+    "rating": 4.8,
+    "lat": 10.4921,
+    "lng": 107.1687
+  },
+  {
+    "id": "q023",
+    "name": "QUÁN LẨU 100K VŨNG TÀU",
+    "area": "Bai Sau",
+    "address": "Hẻm 151 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "hotpot",
+      "seafood",
+      "budget"
+    ],
+    "specialties": [
+      "sour bamboo stingray hotpot",
+      "fish hotpot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "11:00",
+    "close_time": "21:00",
+    "description": "Popular budget hotpot alley eatery famous for its 100k stingray and fish hotpots.",
+    "rating": 4.3,
+    "lat": 10.3363,
+    "lng": 107.0875
+  },
+  {
+    "id": "q024",
+    "name": "Gà Nướng Lu Trâm Anh",
+    "area": "City Center",
+    "address": "53E Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "grill",
+      "chicken"
+    ],
+    "specialties": [
+      "clay-pot roasted chicken",
+      "Thai hotpot"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Local favorite for whole roasted chicken with crispy skin and a signature dipping sauce.",
+    "rating": 4.9,
+    "lat": 10.3355,
+    "lng": 107.0818
+  },
+  {
+    "id": "q025",
+    "name": "Tê Tê Buffet - Vũng Tàu",
+    "area": "Bai Sau",
+    "address": "92 Xô Viết Nghệ Tĩnh, Vũng Tàu",
+    "cuisine_type": [
+      "bbq",
+      "hotpot",
+      "seafood",
+      "buffet"
+    ],
+    "specialties": [
+      "seafood BBQ buffet",
+      "live crab and prawns"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:30",
+    "description": "Affordable all-you-can-eat seafood BBQ and hotpot buffet with a kids' play area.",
+    "rating": 4.2,
+    "lat": 10.3457,
+    "lng": 107.0861
+  },
+  {
+    "id": "q026",
+    "name": "Lẩu cá đuối 7981 Vũng Tàu",
+    "area": "Bai Sau",
+    "address": "414 Lê Hồng Phong, Vũng Tàu",
+    "cuisine_type": [
+      "hotpot",
+      "seafood"
+    ],
+    "specialties": [
+      "stingray hotpot"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:30",
+    "description": "Small, well-loved spot specializing in Vung Tau's signature sour-spicy stingray hotpot.",
+    "rating": 4.7,
+    "lat": 10.3508,
+    "lng": 107.0901
+  },
+  {
+    "id": "q027",
+    "name": "Bánh khọt Cô Phượng Vũng Tàu",
+    "area": "City Center",
+    "address": "33 Thống Nhất, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh khot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:30",
+    "close_time": "19:00",
+    "description": "Well-reviewed banh khot shop known for crispy shrimp and squid mini pancakes.",
+    "rating": 4.8,
+    "lat": 10.3471,
+    "lng": 107.0796
+  },
+  {
+    "id": "q028",
+    "name": "QUÁN BÁNH KHỌT - CÔ HAI THẢO",
+    "area": "City Center",
+    "address": "117 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh khot",
+      "banh can seafood"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "08:00",
+    "close_time": "21:00",
+    "description": "Newly renovated banh khot restaurant with a spacious, modern dining room.",
+    "rating": 4.7,
+    "lat": 10.3392,
+    "lng": 107.0849
+  },
+  {
+    "id": "q029",
+    "name": "Bánh Khọt Cô Ba",
+    "area": "City Center",
+    "address": "12/1 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh khot",
+      "tuna noodle soup"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "One of the most famous banh khot addresses in Vung Tau, praised for crispy texture and fresh herbs.",
+    "rating": 4.7,
+    "lat": 10.3407,
+    "lng": 107.0784
+  },
+  {
+    "id": "q030",
+    "name": "Bánh xèo, bánh khọt Quê Tôi (Tiệm Hoà)",
+    "area": "City Center",
+    "address": "1 Huỳnh Thúc Kháng, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh xeo",
+      "banh khot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "Late-closing local pancake shop using Mekong Delta-style batter for its banh khot.",
+    "rating": 4.6,
+    "lat": 10.3482,
+    "lng": 107.0838
+  },
+  {
+    "id": "q031",
+    "name": "Cô Ba Restaurant",
+    "area": "City Center",
+    "address": "1 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "vietnamese",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh khot",
+      "bun bo hue"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "06:30",
+    "close_time": "22:00",
+    "description": "Busy touristy Vietnamese restaurant serving a wide range of local dishes alongside its famous banh khot.",
+    "rating": 4.0,
+    "lat": 10.3414,
+    "lng": 107.0785
+  },
+  {
+    "id": "q032",
+    "name": "Bánh Khọt Cô Hai gốc Xoài",
+    "area": "City Center",
+    "address": "126 Cô Giang, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "traditional banh khot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:30",
+    "close_time": "18:30",
+    "description": "Traditional-style banh khot stall recommended by locals for its rice-forward batter.",
+    "rating": 4.6,
+    "lat": 10.3564,
+    "lng": 107.0756
+  },
+  {
+    "id": "q033",
+    "name": "Bánh bèo & bánh xèo Cô 7 Màu",
+    "area": "City Center",
+    "address": "8a Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh beo",
+      "banh xeo",
+      "banh khot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "19:00",
+    "description": "Clean, well-organized shop near Front Beach serving a trio of Vietnamese savory pancakes.",
+    "rating": 4.6,
+    "lat": 10.3396,
+    "lng": 107.0787
+  },
+  {
+    "id": "q034",
+    "name": "Bánh Khọt Cô Hai (Vũng Tàu)",
+    "area": "City Center",
+    "address": "17 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh khot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:30",
+    "close_time": "20:30",
+    "description": "Roadside banh khot shop on the popular Hoang Hoa Tham banh khot strip.",
+    "rating": 3.6,
+    "lat": 10.3406,
+    "lng": 107.08
+  },
+  {
+    "id": "q035",
+    "name": "Bánh khọt 14",
+    "area": "City Center",
+    "address": "14 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "shrimp banh khot",
+      "squid banh khot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "08:00",
+    "close_time": "19:00",
+    "description": "High-volume banh khot operation known for crunchy exteriors and generous herb baskets.",
+    "rating": 4.2,
+    "lat": 10.3407,
+    "lng": 107.079
+  },
+  {
+    "id": "q036",
+    "name": "Bánh xèo Bánh khọt Gạo",
+    "area": "City Center",
+    "address": "275 Nguyễn An Ninh, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "local specialty"
+    ],
+    "specialties": [
+      "banh xeo",
+      "banh khot"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "21:00",
+    "description": "Newer banh xeo and banh khot shop praised for crispy pancakes and a well-balanced dipping sauce.",
+    "rating": 5.0,
+    "lat": 10.3691,
+    "lng": 107.0828
+  },
+  {
+    "id": "q037",
+    "name": "El Gaucho Vũng Tàu - Thùy Vân",
+    "area": "Bai Sau",
+    "address": "151 Thùy Vân, Vũng Tàu",
+    "cuisine_type": [
+      "steakhouse",
+      "western",
+      "argentinian"
+    ],
+    "specialties": [
+      "grilled steak",
+      "Argentinian-style beef"
+    ],
+    "price_min": 450000,
+    "price_max": 900000,
+    "open_time": "11:00",
+    "close_time": "23:00",
+    "description": "Upscale Argentinian-style steakhouse and bar with a Back Beach location, known for quality cuts.",
+    "rating": 4.8,
+    "lat": 10.339,
+    "lng": 107.0919
+  },
+  {
+    "id": "q038",
+    "name": "Belly's Watering Hole",
+    "area": "City Center",
+    "address": "53D Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "western",
+      "bar"
+    ],
+    "specialties": [
+      "braised lamb shank",
+      "breakfast plates"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "Long-running expat-favorite bar and grill serving hearty Western comfort food.",
+    "rating": 4.6,
+    "lat": 10.3358,
+    "lng": 107.0817
+  },
+  {
+    "id": "q039",
+    "name": "Offshore Restaurant",
+    "area": "City Center",
+    "address": "R6 Phan Huy Ích, Vũng Tàu",
+    "cuisine_type": [
+      "western",
+      "pizza",
+      "breakfast"
+    ],
+    "specialties": [
+      "wood-fired pizza",
+      "full breakfast"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "08:00",
+    "close_time": "21:00",
+    "description": "Quiet Western restaurant known for pizza, hearty breakfasts and burgers.",
+    "rating": 4.9,
+    "lat": 10.3375,
+    "lng": 107.0829
+  },
+  {
+    "id": "q040",
+    "name": "Van Chai Restaurant",
+    "area": "Bai Sau",
+    "address": "02-04 Lê Hồng Phong, Vũng Tàu",
+    "cuisine_type": [
+      "seafood"
+    ],
+    "specialties": [
+      "grilled octopus",
+      "fish steamboat"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "09:00",
+    "close_time": "22:00",
+    "description": "Casual open-air seafood restaurant near Back Beach with large portions.",
+    "rating": 4.2,
+    "lat": 10.3471,
+    "lng": 107.0932
+  },
+  {
+    "id": "q041",
+    "name": "ALEX Restaurant",
+    "area": "Bai Truoc",
+    "address": "93/24 Lê Lợi, Vũng Tàu",
+    "cuisine_type": [
+      "russian",
+      "western"
+    ],
+    "specialties": [
+      "borsch soup",
+      "cabbage rolls"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Russian restaurant chain outlet known for hearty, authentic Eastern European dishes.",
+    "rating": 4.8,
+    "lat": 10.3623,
+    "lng": 107.0746
+  },
+  {
+    "id": "q042",
+    "name": "Phở Xào Nhật Hoa",
+    "area": "City Center",
+    "address": "101 Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "stir-fried pho"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "22:00",
+    "description": "Small local spot serving a stir-fried twist on classic pho.",
+    "rating": 4.7,
+    "lat": 10.3313,
+    "lng": 107.0826
+  },
+  {
+    "id": "q043",
+    "name": "Phở Hà Thành",
+    "area": "City Center",
+    "address": "215 Trương Công Định, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "breakfast",
+      "local"
+    ],
+    "specialties": [
+      "chicken pho"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "22:00",
+    "description": "Clean, well-run pho shop known for its rich chicken broth.",
+    "rating": 4.6,
+    "lat": 10.35,
+    "lng": 107.0823
+  },
+  {
+    "id": "q044",
+    "name": "Bún bò cô tư",
+    "area": "City Center",
+    "address": "44/17 Trần Đồng, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "bun bo Hue"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "22:38",
+    "description": "Charming alley eatery run by a friendly owner, serving a light, well-balanced bun bo broth.",
+    "rating": 4.9,
+    "lat": 10.3436,
+    "lng": 107.0809
+  },
+  {
+    "id": "q045",
+    "name": "Bún Bò Huế Quán Huyền",
+    "area": "Bai Sau",
+    "address": "34 Trần Quý Cáp, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "bun bo Hue"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "05:30",
+    "close_time": "13:00",
+    "description": "Early-opening bun bo Hue stall popular for its generous meat portions.",
+    "rating": 3.8,
+    "lat": 10.3383,
+    "lng": 107.0905
+  },
+  {
+    "id": "q046",
+    "name": "Quán Bún Bò Huế Hải Hoàng",
+    "area": "City Center",
+    "address": "140 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local",
+      "late night"
+    ],
+    "specialties": [
+      "bun bo thap cam"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "00:00",
+    "close_time": "23:59",
+    "description": "24-hour noodle shop, one of the older establishments in the city, known for honest pricing.",
+    "rating": 3.9,
+    "lat": 10.3498,
+    "lng": 107.0784
+  },
+  {
+    "id": "q047",
+    "name": "Bún Bò Huế Đông Ba Chi Nhánh Vũng Tàu",
+    "area": "Bai Sau",
+    "address": "B12/2/5 Chí Linh 7, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "Hue-style beef noodle soup"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "05:30",
+    "close_time": "21:30",
+    "description": "Branch of the Dong Ba chain offering a wide choice of noodle-soup toppings.",
+    "rating": 3.6,
+    "lat": 10.3758,
+    "lng": 107.1115
+  },
+  {
+    "id": "q048",
+    "name": "Bún Bò Huế Đông Ba Bà Rịa VT",
+    "area": "Bai Sau",
+    "address": "108 Hùng Vương, Bà Rịa",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "bun bo Hue"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "21:30",
+    "description": "Spacious, clean bun bo Hue restaurant with ample parking near Ba Ria.",
+    "rating": 4.3,
+    "lat": 10.5051,
+    "lng": 107.1771
+  },
+  {
+    "id": "q049",
+    "name": "Bún Bò Huế Hương Giang",
+    "area": "City Center",
+    "address": "9 Lê Văn Lộc, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "duck noodle soup"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "20:30",
+    "description": "Cozy noodle shop specializing in shredded duck noodle soup at low prices.",
+    "rating": 4.0,
+    "lat": 10.3696,
+    "lng": 107.0839
+  },
+  {
+    "id": "q050",
+    "name": "Bún Bò Huế Bảo Hạnh",
+    "area": "City Center",
+    "address": "25 Trần Nguyên Hãn, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "bun bo Hue"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "12:00",
+    "description": "Long-running neighborhood favorite considered by many locals the best bun bo Hue in town.",
+    "rating": 3.9,
+    "lat": 10.3471,
+    "lng": 107.0752
+  },
+  {
+    "id": "q051",
+    "name": "Bún bò Quốc Bảo",
+    "area": "City Center",
+    "address": "60a Nguyễn Trường Tộ, Vũng Tàu",
+    "cuisine_type": [
+      "noodle soup",
+      "local"
+    ],
+    "specialties": [
+      "Saigon-style beef noodle soup"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "11:00",
+    "description": "Popular local spot for Saigon-style (rather than Hue-style) beef noodle soup.",
+    "rating": 4.2,
+    "lat": 10.343,
+    "lng": 107.0795
+  },
+  {
+    "id": "q052",
+    "name": "Cơm Tấm Lộc Vũng Tàu",
+    "area": "City Center",
+    "address": "72 Xô Viết Nghệ Tĩnh, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local",
+      "budget"
+    ],
+    "specialties": [
+      "grilled pork chop rice",
+      "ribs"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "20:30",
+    "description": "Well-loved broken-rice shop offering generous portions and free delivery.",
+    "rating": 4.8,
+    "lat": 10.3445,
+    "lng": 107.0856
+  },
+  {
+    "id": "q053",
+    "name": "Quán cơm tấm Ngày Xưa",
+    "area": "Bai Truoc",
+    "address": "3 Trưng Nhị, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local"
+    ],
+    "specialties": [
+      "broken rice with pork chop"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "20:30",
+    "description": "Retro-styled broken-rice restaurant with vintage decor and a nostalgic atmosphere.",
+    "rating": 4.5,
+    "lat": 10.3482,
+    "lng": 107.0745
+  },
+  {
+    "id": "q054",
+    "name": "Hậu Broken Rice",
+    "area": "Bai Sau",
+    "address": "240 Nam Kỳ Khởi Nghĩa, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local",
+      "budget"
+    ],
+    "specialties": [
+      "grilled pork broken rice"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "05:00",
+    "close_time": "22:00",
+    "description": "Popular broken-rice stall frequently packed with local lunch crowds.",
+    "rating": 4.3,
+    "lat": 10.3523,
+    "lng": 107.0874
+  },
+  {
+    "id": "q055",
+    "name": "Quán Cơm Tấm Lọ Lem",
+    "area": "City Center",
+    "address": "8 Xô Viết Nghệ Tĩnh, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local"
+    ],
+    "specialties": [
+      "broken rice with pork"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "21:00",
+    "description": "Clean, casual broken-rice restaurant with an air-conditioned dining room.",
+    "rating": 3.8,
+    "lat": 10.3407,
+    "lng": 107.0839
+  },
+  {
+    "id": "q056",
+    "name": "Cơm Tấm Loan",
+    "area": "City Center",
+    "address": "78 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local"
+    ],
+    "specialties": [
+      "roast pork rice"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "20:30",
+    "description": "Menu-less local rice shop where the owner suggests dishes and prices on the spot.",
+    "rating": 4.0,
+    "lat": 10.3481,
+    "lng": 107.079
+  },
+  {
+    "id": "q057",
+    "name": "Cơm Tấm Thành Tâm",
+    "area": "City Center",
+    "address": "Đường Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local"
+    ],
+    "specialties": [
+      "charcoal-grilled ribs and chicken"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:30",
+    "close_time": "21:00",
+    "description": "Family favorite for charcoal-grilled meats over broken rice.",
+    "rating": 4.1,
+    "lat": 10.339,
+    "lng": 107.0845
+  },
+  {
+    "id": "q058",
+    "name": "Broken Rice 67",
+    "area": "City Center",
+    "address": "86 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local"
+    ],
+    "specialties": [
+      "mixed pre-cooked dishes over rice"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "21:15",
+    "description": "Large economic-rice hall popular with locals for its wide dish selection.",
+    "rating": 4.1,
+    "lat": 10.3483,
+    "lng": 107.0788
+  },
+  {
+    "id": "q059",
+    "name": "Cơm tấm A Tố",
+    "area": "Bai Sau",
+    "address": "443 Trương Công Định, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local"
+    ],
+    "specialties": [
+      "grilled ribs rice"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "20:00",
+    "description": "Affordable broken-rice stop recommended for travelers heading to the beach.",
+    "rating": 4.5,
+    "lat": 10.3577,
+    "lng": 107.0862
+  },
+  {
+    "id": "q060",
+    "name": "Cơm Niêu Rau Tập Tàng 2 Vũng Tàu",
+    "area": "Bai Sau",
+    "address": "225 Võ Thị Sáu, Vũng Tàu",
+    "cuisine_type": [
+      "vietnamese",
+      "rice",
+      "family"
+    ],
+    "specialties": [
+      "clay-pot rice",
+      "braised fish"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "08:30",
+    "close_time": "21:00",
+    "description": "Vietnamese countryside-style clay-pot rice restaurant with a rustic theme.",
+    "rating": 4.0,
+    "lat": 10.3465,
+    "lng": 107.0908
+  },
+  {
+    "id": "q061",
+    "name": "Cơm Tấm 180 Lê Lai",
+    "area": "City Center",
+    "address": "180 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "rice",
+      "local",
+      "budget"
+    ],
+    "specialties": [
+      "pork ribs rice with fried egg"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "10:30",
+    "description": "Morning-only broken-rice stall known for its thick, flavorful dipping sauce.",
+    "rating": 4.5,
+    "lat": 10.3509,
+    "lng": 107.0779
+  },
+  {
+    "id": "q062",
+    "name": "SOHO COFFEE VUNG TAU",
+    "area": "Bai Truoc",
+    "address": "66 Hạ Long, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "iced coconut coffee"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "23:00",
+    "description": "Multi-level cafe on Ha Long street prized for panoramic sea and cliff views.",
+    "rating": 4.7,
+    "lat": 10.3305,
+    "lng": 107.0764
+  },
+  {
+    "id": "q063",
+    "name": "Phê La - Lê Lợi, Vũng Tàu",
+    "area": "Bai Truoc",
+    "address": "2 Lê Lợi, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks",
+      "dessert"
+    ],
+    "specialties": [
+      "matcha coco latte",
+      "fruit tea"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "22:45",
+    "description": "Chain cafe near Front Beach park, known for tea, coffee and cake pairings.",
+    "rating": 4.7,
+    "lat": 10.3457,
+    "lng": 107.0745
+  },
+  {
+    "id": "q064",
+    "name": "Lightroom Coffee",
+    "area": "Bai Truoc",
+    "address": "2 Hẻm 2 Hải Đăng, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "banana cake",
+      "iced coffee"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "23:00",
+    "description": "Multi-level hillside cafe with sweeping ocean views, popular for sunset visits.",
+    "rating": 4.5,
+    "lat": 10.3369,
+    "lng": 107.0723
+  },
+  {
+    "id": "q065",
+    "name": "Tiệm cà phê Dốc Trong Hẻm",
+    "area": "Bai Truoc",
+    "address": "126/17 Trần Phú, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "self-service coffee"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:30",
+    "close_time": "22:30",
+    "description": "Hidden rooftop cafe up a narrow alley hill, known for sunset views over the beach.",
+    "rating": 4.8,
+    "lat": 10.3702,
+    "lng": 107.0643
+  },
+  {
+    "id": "q066",
+    "name": "D.Blend Coffee & Cake",
+    "area": "City Center",
+    "address": "49/17A Nguyễn Bỉnh Khiêm, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "coffee roastery",
+      "bakery"
+    ],
+    "specialties": [
+      "specialty coffee",
+      "banana cake"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "17:00",
+    "description": "Specialty coffee roastery and bakery tucked in a quiet residential alley.",
+    "rating": 4.9,
+    "lat": 10.3427,
+    "lng": 107.0813
+  },
+  {
+    "id": "q067",
+    "name": "The Hill Coffee",
+    "area": "Bai Truoc",
+    "address": "2 Hải Đăng, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "sunset-view drinks"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "Hilltop garden cafe with sea and sunset views, popular for photos and dates.",
+    "rating": 4.4,
+    "lat": 10.3344,
+    "lng": 107.0731
+  },
+  {
+    "id": "q068",
+    "name": "Enough Coffee",
+    "area": "City Center",
+    "address": "42/12 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "Arabica coffee",
+      "cakes"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "Small alley coffee shop known for quality Arabica beans and attentive English-speaking staff.",
+    "rating": 4.8,
+    "lat": 10.3475,
+    "lng": 107.0793
+  },
+  {
+    "id": "q069",
+    "name": "Hayashi Coffee View Đẹp Vũng Tàu",
+    "area": "Bai Truoc",
+    "address": "15 Vi Ba, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "tamarind drink"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "19:00",
+    "description": "Hillside cafe reached by a short climb, valued mainly for its scenic mountain view.",
+    "rating": 4.2,
+    "lat": 10.3562,
+    "lng": 107.0647
+  },
+  {
+    "id": "q070",
+    "name": "Cafe Lavender",
+    "area": "City Center",
+    "address": "5a Lương Văn Can, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "drinks"
+    ],
+    "specialties": [
+      "Vietnamese egg coffee"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:30",
+    "close_time": "22:00",
+    "description": "Artsy, eclectic cafe decorated with the owner's own paintings and live jazz.",
+    "rating": 4.9,
+    "lat": 10.3378,
+    "lng": 107.0805
+  },
+  {
+    "id": "q071",
+    "name": "BBQ ÔNG MẬP VŨNG TÀU",
+    "area": "Bai Sau",
+    "address": "151 Thùy Vân, Vũng Tàu",
+    "cuisine_type": [
+      "korean bbq",
+      "grill"
+    ],
+    "specialties": [
+      "Korean BBQ meat and side dishes"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "11:00",
+    "close_time": "01:00",
+    "description": "Well-regarded Korean BBQ restaurant with attentive tableside grilling service.",
+    "rating": 4.8,
+    "lat": 10.3397,
+    "lng": 107.0922
+  },
+  {
+    "id": "q072",
+    "name": "Tiệm nướng Hoàng Hôn Vũng Tàu",
+    "area": "Bai Truoc",
+    "address": "252 Trần Phú, Vũng Tàu",
+    "cuisine_type": [
+      "bbq",
+      "seafood",
+      "buffet"
+    ],
+    "specialties": [
+      "seafood and meat BBQ buffet"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:00",
+    "description": "All-you-can-eat BBQ buffet with fresh seafood and meat at a flat per-person price.",
+    "rating": 4.2,
+    "lat": 10.386,
+    "lng": 107.0585
+  },
+  {
+    "id": "q073",
+    "name": "Petit BBQ Vung Tau - Grill Food & Beer",
+    "area": "Bai Sau",
+    "address": "2 bis Thi Sách, Vũng Tàu",
+    "cuisine_type": [
+      "bbq",
+      "grill",
+      "beer"
+    ],
+    "specialties": [
+      "grilled beef cuts",
+      "cocktail towers"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:00",
+    "description": "Casual BBQ grill restaurant with a kids' club and tap beer selection.",
+    "rating": 4.8,
+    "lat": 10.3496,
+    "lng": 107.0981
+  },
+  {
+    "id": "q074",
+    "name": "DW's Bar & Grill",
+    "area": "City Center",
+    "address": "23 Trần Nguyên Hãn, Vũng Tàu",
+    "cuisine_type": [
+      "western",
+      "bar and grill"
+    ],
+    "specialties": [
+      "ribs",
+      "fish and chips"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Long-standing Western bar and grill known for consistent quality and generous portions.",
+    "rating": 4.6,
+    "lat": 10.347,
+    "lng": 107.0752
+  },
+  {
+    "id": "q075",
+    "name": "BBQ 이안 (IAN) Korean Food",
+    "area": "Bai Sau",
+    "address": "300A Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "korean bbq",
+      "grill"
+    ],
+    "specialties": [
+      "hot stone grilled kimchi",
+      "beef, duck, pork BBQ"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "14:00",
+    "description": "Korean hot-stone BBQ restaurant known especially for its grilled kimchi side dish.",
+    "rating": 5.0,
+    "lat": 10.3296,
+    "lng": 107.0868
+  },
+  {
+    "id": "q076",
+    "name": "SKY BUFFET VUNG TAU",
+    "area": "Bai Sau",
+    "address": "69-69A Thùy Vân, Vũng Tàu",
+    "cuisine_type": [
+      "buffet",
+      "seafood",
+      "hotel dining"
+    ],
+    "specialties": [
+      "seafood buffet",
+      "sashimi"
+    ],
+    "price_min": 250000,
+    "price_max": 500000,
+    "open_time": "06:00",
+    "close_time": "22:00",
+    "description": "Hotel rooftop buffet restaurant offering sea views alongside a seafood-focused spread.",
+    "rating": 4.7,
+    "lat": 10.3322,
+    "lng": 107.089
+  },
+  {
+    "id": "q077",
+    "name": "Quán Chay Tâm Từ Vegan & Vegetarian Restaurant",
+    "area": "City Center",
+    "address": "119/3 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "vegetarian",
+      "vegan"
+    ],
+    "specialties": [
+      "Hue-style vegetarian noodle soup"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "20:00",
+    "description": "Lakeside vegetarian restaurant popular with locals for its fresh, aromatic noodle soups.",
+    "rating": 4.9,
+    "lat": 10.3393,
+    "lng": 107.0856
+  },
+  {
+    "id": "q078",
+    "name": "Nhà Hàng Ẩm Thực Chay BaNa Vegetarian Restaurant",
+    "area": "Bai Truoc",
+    "address": "93 Lê Lợi, Vũng Tàu",
+    "cuisine_type": [
+      "vegetarian",
+      "vegan"
+    ],
+    "specialties": [
+      "bun cha gio chay",
+      "pho nam hau"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "13:30",
+    "description": "All-day vegetarian and vegan restaurant with an extensive noodle and rice menu.",
+    "rating": 4.7,
+    "lat": 10.3615,
+    "lng": 107.0749
+  },
+  {
+    "id": "q079",
+    "name": "QUÁN CHAY PHÚC AN VEGAN",
+    "area": "Bai Sau",
+    "address": "04 Lê Phụng Hiểu, Vũng Tàu",
+    "cuisine_type": [
+      "vegetarian",
+      "vegan"
+    ],
+    "specialties": [
+      "hu tieu chay"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:30",
+    "close_time": "14:30",
+    "description": "Quiet morning-only vegan restaurant known for affordable, wholesome noodle dishes.",
+    "rating": 4.9,
+    "lat": 10.3559,
+    "lng": 107.0932
+  },
+  {
+    "id": "q080",
+    "name": "Minh Bảo Vegetarian Restaurant",
+    "area": "City Center",
+    "address": "13 Nguyễn Trường Tộ, Vũng Tàu",
+    "cuisine_type": [
+      "vegetarian",
+      "buffet"
+    ],
+    "specialties": [
+      "vegetarian buffet"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "14:00",
+    "description": "Buffet-style vegetarian restaurant with a generous, varied selection.",
+    "rating": 4.4,
+    "lat": 10.3421,
+    "lng": 107.0791
+  },
+  {
+    "id": "q081",
+    "name": "An - Vegan Buffet",
+    "area": "City Center",
+    "address": "102 Nam Kỳ Khởi Nghĩa, Vũng Tàu",
+    "cuisine_type": [
+      "vegan",
+      "vegetarian",
+      "buffet"
+    ],
+    "specialties": [
+      "all-you-can-eat vegan buffet",
+      "vegan hotpot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "20:00",
+    "description": "Extremely affordable all-you-can-eat vegan buffet, a long-time local institution.",
+    "rating": 4.6,
+    "lat": 10.3465,
+    "lng": 107.0845
+  },
+  {
+    "id": "q082",
+    "name": "Cơm niêu Chay Tịnh Mẫn",
+    "area": "City Center",
+    "address": "30 Phùng Chí Kiên, Vũng Tàu",
+    "cuisine_type": [
+      "vegetarian",
+      "vegan",
+      "family"
+    ],
+    "specialties": [
+      "clay-pot vegetarian rice"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:45",
+    "close_time": "14:30",
+    "description": "Higher-end vegetarian restaurant with a courtyard, buffet and a la carte options.",
+    "rating": 4.4,
+    "lat": 10.3667,
+    "lng": 107.0824
+  },
+  {
+    "id": "q083",
+    "name": "House H&H (Food&Drink)",
+    "area": "City Center",
+    "address": "52a Lương Văn Can, Vũng Tàu",
+    "cuisine_type": [
+      "vietnamese",
+      "hotpot",
+      "smokehouse"
+    ],
+    "specialties": [
+      "smoked goose salad",
+      "hotpot"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:30",
+    "description": "Casual restaurant with its own smokehouse, known for smoked specialties and hotpot.",
+    "rating": 4.8,
+    "lat": 10.3396,
+    "lng": 107.0813
+  },
+  {
+    "id": "q084",
+    "name": "Phuoc Tho Vegan restaurant",
+    "area": "City Center",
+    "address": "74 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "vegan",
+      "vegetarian",
+      "buffet"
+    ],
+    "specialties": [
+      "vegan buffet"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "09:00",
+    "close_time": "14:00",
+    "description": "Fast-moving vegan buffet counter offering good value and quick service.",
+    "rating": 4.6,
+    "lat": 10.348,
+    "lng": 107.079
+  },
+  {
+    "id": "q085",
+    "name": "Ẩm Thực Chay QUAN ÂM LIÊN THỌ",
+    "area": "City Center",
+    "address": "36 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "vegetarian",
+      "buffet"
+    ],
+    "specialties": [
+      "vegetarian buffet",
+      "vegetarian hotpot"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:00",
+    "close_time": "21:00",
+    "description": "Large Buddhist-style vegetarian buffet restaurant with a huge dish variety including hotpot.",
+    "rating": 4.3,
+    "lat": 10.3403,
+    "lng": 107.08
+  },
+  {
+    "id": "q086",
+    "name": "88 Food Garden",
+    "area": "Bai Sau",
+    "address": "127 Võ Thị Sáu, Vũng Tàu",
+    "cuisine_type": [
+      "vietnamese",
+      "late night"
+    ],
+    "specialties": [
+      "late-night dining"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:00",
+    "description": "Tropical-themed late-night restaurant popular for evening dining outings.",
+    "rating": 4.5,
+    "lat": 10.3354,
+    "lng": 107.086
+  },
+  {
+    "id": "q087",
+    "name": "BEURÉA VungTau",
+    "area": "Bai Sau",
+    "address": "151 Thùy Vân, Vũng Tàu",
+    "cuisine_type": [
+      "cafe",
+      "bakery",
+      "brunch"
+    ],
+    "specialties": [
+      "croissants",
+      "pastries"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "Cafe and patisserie in the city center known for fresh croissants and brunch.",
+    "rating": 4.1,
+    "lat": 10.3387,
+    "lng": 107.0917
+  },
+  {
+    "id": "q088",
+    "name": "Luca Pizza & Italian Restaurant",
+    "area": "City Center",
+    "address": "230 Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "italian",
+      "pizza"
+    ],
+    "specialties": [
+      "vegan pizza",
+      "pesto penne"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "11:00",
+    "close_time": "22:30",
+    "description": "Spacious Italian restaurant popular for family dinners, with an extensive pizza and pasta menu.",
+    "rating": 4.7,
+    "lat": 10.3307,
+    "lng": 107.0834
+  },
+  {
+    "id": "q089",
+    "name": "David Pizzeria",
+    "area": "Bai Truoc",
+    "address": "92 Hạ Long, Vũng Tàu",
+    "cuisine_type": [
+      "italian",
+      "pizza"
+    ],
+    "specialties": [
+      "wood-fired pizza"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:30",
+    "description": "Beachfront pizzeria known mainly for its scenic sea view location.",
+    "rating": 4.3,
+    "lat": 10.3355,
+    "lng": 107.0718
+  },
+  {
+    "id": "q090",
+    "name": "Good Morning Vietnam",
+    "area": "City Center",
+    "address": "1a Nguyễn Trường Tộ, Vũng Tàu",
+    "cuisine_type": [
+      "italian",
+      "cafe"
+    ],
+    "specialties": [
+      "Italian breakfast",
+      "pizza"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "08:00",
+    "close_time": "22:00",
+    "description": "Retro Italian-style corner cafe near Front Beach serving pizza and Italian breakfast.",
+    "rating": 4.1,
+    "lat": 10.3399,
+    "lng": 107.0785
+  },
+  {
+    "id": "q091",
+    "name": "Mr.C's Speakeasy Pub",
+    "area": "Bai Truoc",
+    "address": "3 Lê Ngọc Hân, Vũng Tàu",
+    "cuisine_type": [
+      "pub",
+      "pizza",
+      "western"
+    ],
+    "specialties": [
+      "wood-oven pizza",
+      "ribs"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "07:00",
+    "close_time": "22:00",
+    "description": "Sports-bar pub with wood-fired pizza and a lively North American sports viewing atmosphere.",
+    "rating": 4.7,
+    "lat": 10.3508,
+    "lng": 107.0715
+  },
+  {
+    "id": "q092",
+    "name": "Soul Pizza & Burger",
+    "area": "Bai Truoc",
+    "address": "3 Hoàng Diệu, Vũng Tàu",
+    "cuisine_type": [
+      "pizza",
+      "burger",
+      "western"
+    ],
+    "specialties": [
+      "cheese wheel pasta",
+      "burgers"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:30",
+    "close_time": "21:30",
+    "description": "Trendy pizza and burger spot with a cozy vibe and hookah lounge feel.",
+    "rating": 4.4,
+    "lat": 10.3497,
+    "lng": 107.0725
+  },
+  {
+    "id": "q093",
+    "name": "Emily’s Kitchen",
+    "area": "City Center",
+    "address": "100 Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "western",
+      "breakfast"
+    ],
+    "specialties": [
+      "full English breakfast",
+      "pancakes"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Homely Western restaurant known for hearty breakfasts and comfort food.",
+    "rating": 4.6,
+    "lat": 10.3363,
+    "lng": 107.0812
+  },
+  {
+    "id": "q094",
+    "name": "Hitoki Sushi Vũng Tàu",
+    "area": "City Center",
+    "address": "341 Trương Công Định, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "sushi"
+    ],
+    "specialties": [
+      "sashimi",
+      "sushi rolls"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:30",
+    "close_time": "14:30",
+    "description": "Well-decorated Japanese restaurant known for fresh sashimi and attentive service.",
+    "rating": 4.8,
+    "lat": 10.3541,
+    "lng": 107.0843
+  },
+  {
+    "id": "q095",
+    "name": "Ebisu Japanese Restaurant",
+    "area": "City Center",
+    "address": "17A Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "izakaya",
+      "yakitori"
+    ],
+    "specialties": [
+      "yakitori skewers",
+      "draft Sapporo"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:30",
+    "description": "Japanese izakaya-style restaurant and bar known for cheap cold draft beer and yakitori.",
+    "rating": 4.4,
+    "lat": 10.3407,
+    "lng": 107.0798
+  },
+  {
+    "id": "q096",
+    "name": "Sushi Isshin",
+    "area": "Bai Truoc",
+    "address": "17 Lê Lợi, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "sushi"
+    ],
+    "specialties": [
+      "fresh tuna sushi"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Highly rated sushi restaurant known for very fresh fish and attentive service.",
+    "rating": 4.9,
+    "lat": 10.3535,
+    "lng": 107.0743
+  },
+  {
+    "id": "q097",
+    "name": "Sushi Vũng Tàu",
+    "area": "Bai Sau",
+    "address": "503 Trương Công Định, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "sushi"
+    ],
+    "specialties": [
+      "smoked eel teriyaki",
+      "sashimi sets"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "09:00",
+    "close_time": "21:00",
+    "description": "Sushi shop with delivery focus, known for careful packaging and fresh sashimi.",
+    "rating": 4.5,
+    "lat": 10.3597,
+    "lng": 107.087
+  },
+  {
+    "id": "q098",
+    "name": "Gu Sushi Vũng Tàu",
+    "area": "City Center",
+    "address": "111 Đồ Chiểu, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "sushi"
+    ],
+    "specialties": [
+      "sashimi",
+      "sushi rolls"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "14:00",
+    "description": "Affordable, fresh Japanese sushi restaurant considered by many the best value in the city.",
+    "rating": 4.8,
+    "lat": 10.3504,
+    "lng": 107.0801
+  },
+  {
+    "id": "q099",
+    "name": "Sushi Hokkaido Vũng Tàu",
+    "area": "City Center",
+    "address": "57 Nguyễn Tri Phương, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "sushi"
+    ],
+    "specialties": [
+      "California rolls",
+      "Philadelphia rolls"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:30",
+    "close_time": "14:00",
+    "description": "Recently renovated sushi restaurant offering a wide, well-priced roll selection.",
+    "rating": 4.6,
+    "lat": 10.3648,
+    "lng": 107.0822
+  },
+  {
+    "id": "q100",
+    "name": "Sushi Yori",
+    "area": "Bai Sau",
+    "address": "286 Thống Nhất, Vũng Tàu",
+    "cuisine_type": [
+      "japanese",
+      "sushi",
+      "ramen"
+    ],
+    "specialties": [
+      "ramen",
+      "avocado sushi"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "21:30",
+    "description": "Small Japanese restaurant praised for both its ramen and sushi at accessible prices.",
+    "rating": 4.8,
+    "lat": 10.3565,
+    "lng": 107.089
+  },
+  {
+    "id": "q101",
+    "name": "Black Pan steak restaurant",
+    "area": "Bai Sau",
+    "address": "289 Thống Nhất, Vũng Tàu",
+    "cuisine_type": [
+      "steakhouse",
+      "sushi",
+      "fusion"
+    ],
+    "specialties": [
+      "striploin steak",
+      "sashimi"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "13:30",
+    "description": "Fusion restaurant combining Western steaks with Japanese sashimi and sushi.",
+    "rating": 4.9,
+    "lat": 10.3561,
+    "lng": 107.0883
+  },
+  {
+    "id": "q102",
+    "name": "C Tao - Chinese Restaurant",
+    "area": "Bai Sau",
+    "address": "186 Đ. 2 Tháng 9, Vũng Tàu",
+    "cuisine_type": [
+      "chinese",
+      "dim sum"
+    ],
+    "specialties": [
+      "dim sum",
+      "Peking duck combo"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "14:00",
+    "description": "Well-regarded Chinese restaurant known for dim sum and roasted meat platters.",
+    "rating": 4.4,
+    "lat": 10.3601,
+    "lng": 107.0916
+  },
+  {
+    "id": "q103",
+    "name": "Bistro Nine",
+    "area": "Bai Truoc",
+    "address": "9 Trương Vĩnh Ký, Vũng Tàu",
+    "cuisine_type": [
+      "french",
+      "bistro",
+      "bar"
+    ],
+    "specialties": [
+      "steak frites",
+      "homemade bread"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "French bistro near a beachfront park known for steak frites and attentive service.",
+    "rating": 4.6,
+    "lat": 10.3491,
+    "lng": 107.0729
+  },
+  {
+    "id": "q104",
+    "name": "Gành Hào 2 Seafood Restaurant",
+    "area": "Bai Truoc",
+    "address": "09 Hạ Long, Vũng Tàu",
+    "cuisine_type": [
+      "seafood"
+    ],
+    "specialties": [
+      "fresh seafood platters"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "09:00",
+    "close_time": "21:00",
+    "description": "Second branch of the well-known Ganh Hao seafood chain, near the Con Dao ferry pier.",
+    "rating": 4.2,
+    "lat": 10.3391,
+    "lng": 107.0714
+  },
+  {
+    "id": "q105",
+    "name": "Đông Hải Quán",
+    "area": "Bai Sau",
+    "address": "325 Thống Nhất, Vũng Tàu",
+    "cuisine_type": [
+      "vietnamese",
+      "seafood"
+    ],
+    "specialties": [
+      "local seafood dishes"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "08:00",
+    "close_time": "23:00",
+    "description": "Neighborhood restaurant offering quick service and a straightforward local menu.",
+    "rating": 3.7,
+    "lat": 10.3582,
+    "lng": 107.0897
+  },
+  {
+    "id": "q106",
+    "name": "La Sirena",
+    "area": "Bai Sau",
+    "address": "159 Thùy Vân, Vũng Tàu",
+    "cuisine_type": [
+      "seafood",
+      "hotel dining"
+    ],
+    "specialties": [
+      "smoked fish salad",
+      "seafood chowder"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:30",
+    "close_time": "14:00",
+    "description": "Hotel restaurant with a Back Beach terrace, offering a diverse international seafood menu.",
+    "rating": 4.6,
+    "lat": 10.3438,
+    "lng": 107.0948
+  },
+  {
+    "id": "q107",
+    "name": "LE-A Coffee & Food",
+    "area": "City Center",
+    "address": "11 Đồ Chiểu, Vũng Tàu",
+    "cuisine_type": [
+      "healthy food",
+      "cafe",
+      "brunch"
+    ],
+    "specialties": [
+      "protein bowls",
+      "kebab"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "22:00",
+    "description": "Health-food cafe known for its protein bowls and photogenic themed interior.",
+    "rating": 4.8,
+    "lat": 10.3493,
+    "lng": 107.0773
+  },
+  {
+    "id": "q108",
+    "name": "Bánh Mì Minh Tâm",
+    "area": "City Center",
+    "address": "68 Lê Lai, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "sandwich",
+      "budget"
+    ],
+    "specialties": [
+      "classic banh mi"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Well-reviewed banh mi stall known for friendly, English-speaking staff.",
+    "rating": 5.0,
+    "lat": 10.3478,
+    "lng": 107.079
+  },
+  {
+    "id": "q109",
+    "name": "Bánh Mì Bà Huynh - Vũng Tàu",
+    "area": "City Center",
+    "address": "126A12 Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "sandwich",
+      "budget"
+    ],
+    "specialties": [
+      "banh mi",
+      "sticky rice"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "07:30",
+    "close_time": "21:00",
+    "description": "Branch of a well-known Saigon banh mi shop, also serving sticky rice and steamed buns.",
+    "rating": 3.8,
+    "lat": 10.3374,
+    "lng": 107.0855
+  },
+  {
+    "id": "q110",
+    "name": "Lò Bánh Mì Phương Đông",
+    "area": "City Center",
+    "address": "33 Xô Viết Nghệ Tĩnh, Vũng Tàu",
+    "cuisine_type": [
+      "bakery",
+      "street food"
+    ],
+    "specialties": [
+      "fresh baked bread"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "19:00",
+    "description": "Neighborhood bakery known for dense, fragrant bread baked continuously through the day.",
+    "rating": 4.8,
+    "lat": 10.3417,
+    "lng": 107.0841
+  },
+  {
+    "id": "q111",
+    "name": "Bánh Mì Minh Tâm Vũng Tàu",
+    "area": "City Center",
+    "address": "155 Nguyễn Thái Học, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "sandwich",
+      "breakfast"
+    ],
+    "specialties": [
+      "banh mi thap cam",
+      "banh tom"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "05:30",
+    "close_time": "21:30",
+    "description": "Popular breakfast banh mi shop known for its crispy shrimp pastry.",
+    "rating": 4.6,
+    "lat": 10.368,
+    "lng": 107.0847
+  },
+  {
+    "id": "q112",
+    "name": "Bánh Mì Maika Hội An 1982",
+    "area": "City Center",
+    "address": "41 Trần Hưng Đạo, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "sandwich"
+    ],
+    "specialties": [
+      "Hoi An-style banh mi"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "06:00",
+    "close_time": "19:30",
+    "description": "Clean, well-organized Hoi An-style banh mi shop known for its char siu pork roll.",
+    "rating": 4.7,
+    "lat": 10.3473,
+    "lng": 107.0757
+  },
+  {
+    "id": "q113",
+    "name": "Bánh Mì Nướng Bơ Campuchia",
+    "area": "City Center",
+    "address": "126b Phan Chu Trinh, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "snack"
+    ],
+    "specialties": [
+      "Cambodian-style grilled buttered bread",
+      "meat skewers"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Evening street stall serving Cambodian-style grilled buttered bread with meat skewers.",
+    "rating": 5.0,
+    "lat": 10.3353,
+    "lng": 107.0816
+  },
+  {
+    "id": "q114",
+    "name": "Bánh mì Cột Cờ Vũng Tàu",
+    "area": "City Center",
+    "address": "144/3A Nam Kỳ Khởi Nghĩa, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "sandwich"
+    ],
+    "specialties": [
+      "banh mi"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "11:00",
+    "description": "Small morning-only banh mi stall praised for friendly, reasonably priced service.",
+    "rating": 5.0,
+    "lat": 10.3476,
+    "lng": 107.085
+  },
+  {
+    "id": "q115",
+    "name": "Bánh mì không tên",
+    "area": "City Center",
+    "address": "58 Lý Thường Kiệt, Vũng Tàu",
+    "cuisine_type": [
+      "street food",
+      "sandwich"
+    ],
+    "specialties": [
+      "banh mi with house sauce"
+    ],
+    "price_min": 25000,
+    "price_max": 70000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Well-known evening banh mi stall with a distinctive, hard-to-replicate sauce.",
+    "rating": 3.9,
+    "lat": 10.3491,
+    "lng": 107.0769
+  },
+  {
+    "id": "q116",
+    "name": "88 Beer Garden",
+    "area": "Bai Sau",
+    "address": "151 Thùy Vân, Vũng Tàu",
+    "cuisine_type": [
+      "bar",
+      "beer garden"
+    ],
+    "specialties": [
+      "late-night drinks and snacks"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "18:00",
+    "close_time": "05:00",
+    "description": "Open-air beer garden and late-night venue popular with a younger crowd.",
+    "rating": 4.3,
+    "lat": 10.3399,
+    "lng": 107.0923
+  },
+  {
+    "id": "q117",
+    "name": "Quán Nhậu HÒA BÌNH",
+    "area": "City Center",
+    "address": "Thống Nhất, Vũng Tàu",
+    "cuisine_type": [
+      "pub",
+      "seafood",
+      "hotpot"
+    ],
+    "specialties": [
+      "seafood hotpot",
+      "cold beer"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "00:00",
+    "close_time": "23:59",
+    "description": "24-hour drinking spot with an extensive seafood and hotpot menu.",
+    "rating": 4.7,
+    "lat": 10.3499,
+    "lng": 107.0844
+  },
+  {
+    "id": "q118",
+    "name": "LOX",
+    "area": "City Center",
+    "address": "12b Hoàng Hoa Thám, Vũng Tàu",
+    "cuisine_type": [
+      "nightclub",
+      "bar"
+    ],
+    "specialties": [
+      "cocktails",
+      "late-night entertainment"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "20:30",
+    "close_time": "02:00",
+    "description": "Popular nightclub in the city center known for live DJs and an energetic crowd.",
+    "rating": 4.8,
+    "lat": 10.3411,
+    "lng": 107.0782
+  },
+  {
+    "id": "q119",
+    "name": "Beer House",
+    "area": "City Center",
+    "address": "19K1 Trịnh Hoài Đức, Vũng Tàu",
+    "cuisine_type": [
+      "bar",
+      "imported beer"
+    ],
+    "specialties": [
+      "imported European beers"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:30",
+    "description": "Quiet themed pub with a wide selection of imported Belgian, German and Czech beers.",
+    "rating": 4.8,
+    "lat": 10.3653,
+    "lng": 107.0841
+  },
+  {
+    "id": "q120",
+    "name": "Quán Nhậu Đường Phố - Vivu vivu Vũng Tàu",
+    "area": "Bai Truoc",
+    "address": "3 Ba Cu, Vũng Tàu",
+    "cuisine_type": [
+      "pub",
+      "street food",
+      "bar"
+    ],
+    "specialties": [
+      "live DJ dining",
+      "grilled dishes"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "01:00",
+    "description": "Lively street-food pub with live DJ music, popular for group gatherings.",
+    "rating": 4.2,
+    "lat": 10.3483,
+    "lng": 107.0739
+  },
+  {
+    "id": "q121",
+    "name": "Déjà Vu - Cocktail Bar",
+    "area": "Bai Truoc",
+    "address": "3 Lê Ngọc Hân, Vũng Tàu",
+    "cuisine_type": [
+      "cocktail bar"
+    ],
+    "specialties": [
+      "signature cocktails",
+      "live acoustic music"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "18:30",
+    "close_time": "02:00",
+    "description": "Stylish cocktail bar with live music and a pool table, known for creative drinks.",
+    "rating": 4.7,
+    "lat": 10.3508,
+    "lng": 107.0715
+  },
+  {
+    "id": "q122",
+    "name": "Ocean Beer",
+    "area": "City Center",
+    "address": "161 Nguyễn Văn Trỗi, Vũng Tàu",
+    "cuisine_type": [
+      "bar",
+      "western",
+      "imported beer"
+    ],
+    "specialties": [
+      "imported beer and wine",
+      "steak"
+    ],
+    "price_min": 250000,
+    "price_max": 500000,
+    "open_time": "08:00",
+    "close_time": "22:00",
+    "description": "Western Wild-West-themed restaurant and bar with a large imported beer and wine list.",
+    "rating": 4.3,
+    "lat": 10.3574,
+    "lng": 107.0784
+  },
+  {
+    "id": "q123",
+    "name": "Blue Moon - Beer Club",
+    "area": "City Center",
+    "address": "2 Nguyễn Du, Vũng Tàu",
+    "cuisine_type": [
+      "nightclub",
+      "bar"
+    ],
+    "specialties": [
+      "EDM nightclub"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "15:00",
+    "close_time": "00:00",
+    "description": "EDM-focused nightclub with dance performances, popular with the late-night crowd.",
+    "rating": 4.0,
+    "lat": 10.3437,
+    "lng": 107.0755
+  },
+  {
+    "id": "q124",
+    "name": "Munterra Vung Tau",
+    "area": "Bai Truoc",
+    "address": "8 Thủ Khoa Huân, Vũng Tàu",
+    "cuisine_type": [
+      "fusion",
+      "pizza",
+      "bar"
+    ],
+    "specialties": [
+      "salmon bruschetta",
+      "specialty pizza"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "22:00",
+    "description": "Stylish fusion restaurant with a frequently changing menu and elegant atmosphere.",
+    "rating": 4.8,
+    "lat": 10.3498,
+    "lng": 107.0738
+  },
+  {
+    "id": "q125",
+    "name": "Cơm Niêu 98 Bãi Dâu, Trần Phú, Vũng Tàu",
+    "area": "Bai Truoc",
+    "address": "98 Trần Phú, Vũng Tàu",
+    "cuisine_type": [
+      "vietnamese",
+      "family"
+    ],
+    "specialties": [
+      "lemongrass tofu",
+      "clay-pot rice"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "07:30",
+    "close_time": "20:00",
+    "description": "Family-style Vietnamese restaurant in the Bai Dau area known for fresh, traditional dishes.",
+    "rating": 4.2,
+    "lat": 10.3655,
+    "lng": 107.0627
+  },
+  {
+    "id": "q126",
+    "name": "Vũng Tàu Craft Beer & Grill",
+    "area": "City Center",
+    "address": "68 Phan Huy Ích, Vũng Tàu",
+    "cuisine_type": [
+      "craft beer",
+      "grill",
+      "bar"
+    ],
+    "specialties": [
+      "craft beer flights",
+      "grilled goose"
+    ],
+    "price_min": 100000,
+    "price_max": 280000,
+    "open_time": "10:00",
+    "close_time": "23:00",
+    "description": "Cozy craft-beer bar and grill considered one of the best craft-beer spots in the city.",
+    "rating": 4.7,
+    "lat": 10.337,
+    "lng": 107.0816
+  }
+]
