@@ -49,12 +49,16 @@ def analyze_results(results, total_time):
     total_latency = [r.get("total_latency_ms", 0) for r in successful]
     retriever_latency = []
     reasoner_latency = []
+    tokens_generated = []
     
     for r in successful:
         data = r.get("data", {})
         if "breakdown" in data:
             retriever_latency.append(data["breakdown"].get("retriever_ms", 0))
             reasoner_latency.append(data["breakdown"].get("reasoner_ms", 0))
+            if "answer" in data:
+                tokens = len(data["answer"].split()) * 1.3
+                tokens_generated.append(tokens)
             
     print("\n" + "="*50)
     print("BENCHMARK RESULTS")
@@ -85,6 +89,10 @@ def analyze_results(results, total_time):
             print(f"Mean: {np.mean(reasoner_latency):.2f} ms")
             print(f"p50:  {np.percentile(reasoner_latency, 50):.2f} ms")
             print(f"p95:  {np.percentile(reasoner_latency, 95):.2f} ms")
+            if sum(reasoner_latency) > 0:
+                # Convert reasoner latency sum to seconds for tps calculation
+                reasoner_time_sec = sum(reasoner_latency) / 1000.0
+                print(f"Tokens/sec: {sum(tokens_generated)/reasoner_time_sec:.2f} t/s")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Food Buddy Load Test")

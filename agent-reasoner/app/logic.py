@@ -22,6 +22,6 @@ def select_restaurants(query: str, candidates: list[dict], current_time: str) ->
     if not chosen:
         answer = "I couldn't find an open restaurant matching those conditions right now. Please try a different time or relax the budget."
     else:
-        lines = [f"{x['name']} ({x['area']}) — {x['price_min']:,}-{x['price_max']:,} VND; try the {x['specialties'][0]}." for x in chosen]
+        lines = [f"{x['name']} ({x['area']}) — {x['price_min']:,}-{x['price_max']:,} VND; try the {x['specialties'][0] if x['specialties'] else 'house special'}." for x in chosen]
         answer = " ".join(["Here are my best matches:", *lines])
     return {"answer_text": answer, "chosen_ids": [x["id"] for x in chosen], "excluded_ids": excluded, "exclusion_reason": reasons, "tokens_generated": len(answer.split())}

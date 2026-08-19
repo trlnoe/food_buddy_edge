@@ -46,7 +46,7 @@ async def status():
 async def ask(request: AskRequest):
     started = time.perf_counter()
     async with httpx.AsyncClient() as client:
-        retrieved, error = await post_retry(client, f"{RETRIEVER}/retrieve", {"query": request.query, "top_k": 50}, RTIMEOUT)
+        retrieved, error = await post_retry(client, f"{RETRIEVER}/retrieve", {"query": request.query, "top_k": 5}, RTIMEOUT)
         if error:
             return failure("TIMEOUT", "Restaurant search is temporarily unavailable. Please try again shortly.", {"retriever":"timeout", "reasoner":"not_called"}, started)
         if not retrieved.get("success"):

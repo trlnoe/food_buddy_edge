@@ -8,7 +8,7 @@ class LocalLlmEngine:
         self.model = None
         self.error = None
         self.model_path = Path(
-            os.getenv("MODEL_PATH", "/app/models/qwen2.5-1.5b-instruct-q4_k_m.gguf")
+            os.getenv("MODEL_PATH", "/app/models/qwen2.5-0.5b-instruct-q4_k_m.gguf")
         )
 
     @property

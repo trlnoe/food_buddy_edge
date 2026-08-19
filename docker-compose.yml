@@ -3,6 +3,7 @@ name: food_buddy_edge
 services:
   retriever:
     image: food_buddy_edge-retriever
+    restart: unless-stopped
     container_name: food_buddy_edge-retriever
     build: ./agent-retriever
     ports: ["8883:8001"]
@@ -15,6 +16,7 @@ services:
 
   reasoner:
     image: food_buddy_edge-reasoner
+    restart: unless-stopped
     container_name: food_buddy_edge-reasoner
     build: ./agent-reasoner
     ports: ["8885:8002"]
@@ -34,6 +36,7 @@ services:
 
   synthesizer:
     image: food_buddy_edge-synthesizer
+    restart: unless-stopped
     container_name: food_buddy_edge-synthesizer
     build: ./agent-synthesizer
     ports: ["8887:8003"]

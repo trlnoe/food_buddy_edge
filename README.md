@@ -44,6 +44,7 @@ Cách dễ nhất để đảm bảo mã nguồn tái lập hoàn hảo trên m�
 1. Cài đặt Docker & Docker Compose (nếu chưa có).
 2. Tự động tải mô hình AI `Qwen2.5-0.5B` về đúng thư mục.
 3. Build và khởi chạy tất cả các Agents thông qua Docker Compose.
+4. Tự động khởi tạo Vector Database (ChromaDB) cho Semantic Search.
 
 **Bước 1: Chạy Script Cài Đặt**
 ```bash
@@ -110,7 +111,13 @@ Chạy toàn bộ cụm Micro-Agents với Docker Compose:
 docker compose up -d --build
 ```
 
-### 4. Khởi chạy Web UI
+### 4. Khởi tạo Vector Database cho Semantic Search
+Chạy script để load mô hình Sentence-Transformers và lập chỉ mục (index) dữ liệu nhà hàng vào ChromaDB:
+```bash
+docker compose run --rm retriever python3 scripts/build_index.py
+```
+
+### 5. Khởi chạy Web UI
 ```bash
 cd ui && python3 -m http.server 8080
 ```

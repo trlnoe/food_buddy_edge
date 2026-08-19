@@ -8,7 +8,7 @@ store = RestaurantStore()
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "index_size": len(store.items), "mode": "lexical_fallback"}
+    return {"status": "ok", "index_size": len(store.store.items), "mode": store.mode}
 
 @app.post("/retrieve")
 def retrieve(request: RetrieveRequest):
